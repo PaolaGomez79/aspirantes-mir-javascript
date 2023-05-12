@@ -1,17 +1,10 @@
 function calcularColor(numero) {
-    let color;
-    if(numero === 1) {
-        color = "negro";
-    }
-    else if(numero === 2) {
-        color = "blanco";
-    }
-    else if(numero === 3) {
-        color = "azul";
-    }
-    else {
-        color = "verde";
-    }
+    let color = "verde";
+
+    if(numero === 1) { color = "negro";}
+    else if(numero === 2) { color = "blanco";}
+    else if(numero === 3) { color = "azul"; }
+    
     return  "El color es " + color;
 }
 
